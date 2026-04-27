@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container{
+    margin:80px auto;
+    width: 90%;
+    height: 400px;
+    max-width: 500px;
+    outline: 4px solid;
+}
+
+.element{
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.element-1{
+    background-color: rgb(83, 177, 255);
+}
+
+.element-2{
+    background-color: rgb(231,112,144);
+}
+
+.element-3{
+    background-color: rgb(180, 87, 230);
+}
+
+.element-4{
+    background-color: rgb(55,162,94);
+}
