@@ -1,18 +1,28 @@
+/*Reset estilos*/
 *{
     margin:0;
     box-sizing: border-box;
 }
 
+/*Estilos generales*/
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Contenedor de grid*/
 .grid-container{
     margin:80px auto;
     width: 90%;
     height: 400px;
     max-width: 500px;
     outline: 4px solid;
+
+    /*Propiedad que activa grid*/
+    display: grid;
+    /*Distribuir en columnas*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns:repeat(4,1fr);/*repeat(Numero de columnas, tamaño columnas)*/
+    grid-template-rows:repeat(3,1fr);
 }
 
 .element{
@@ -24,16 +34,24 @@ body{
 
 .element-1{
     background-color: rgb(83, 177, 255);
+    grid-column:1/2;
+    grid-row: 2/3;
 }
 
 .element-2{
     background-color: rgb(231,112,144);
+    grid-column:1/span 3;/*span indica cuantas columnas quieres que ocupe a partir de su posicion inicial*/
+    grid-row: span 1;
 }
 
 .element-3{
     background-color: rgb(180, 87, 230);
+    grid-column: 3/span 2;
+    grid-row: span 2;
 }
 
 .element-4{
     background-color: rgb(55,162,94);
+    grid-column: 4/5;
+    grid-row: 1/2;
 }
