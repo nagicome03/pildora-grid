@@ -1,6 +1,6 @@
 # 💊 Píldora GRID: Conceptos de Teoría
 
-Este repositorio contiene los ejemplos prácticos desarrollados para una **Píldora GRID**. 
+**Para ver los ejemplos ve a la rama dev.**
 
 ## 🛠️ Tecnologías Utilizadas
 Para la construcción de estos ejemplos y el despliegue del material, se han utilizado:
