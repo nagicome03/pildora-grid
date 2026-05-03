@@ -1,7 +1,5 @@
 # 💊 Píldora GRID: Conceptos de Teoría
 
-**Para ver los ejemplos ve a la rama dev.**
-
 ## 🛠️ Tecnologías Utilizadas
 Para la construcción de estos ejemplos y el despliegue del material, se han utilizado:
 
